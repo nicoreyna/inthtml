@@ -18,6 +18,45 @@
         <li><a href="iniciosesion.html">Inicio de Sesión</a></li>
         <li><a href="#">Registro</a></li>
       </ul>
+      <hr>
     </header>
+    <main>
+      <h1>registro</h1>
+      <form class="" action="index.html" method="post">
+        <fieldset>
+          <legend>Nuevo usuario</legend>
+          <p>
+            <label for="mail">Email*<br></label>
+            <input type="email" id="mail" required>
+          </p>
+          <p>
+            <label for="pass">Contraseña*<br></label>
+            <input type="password" id="pass" required>
+          </p>
+          <p>
+        		<label for="genre">¿Dónde nos vio?</label>
+        		<br>
+        		<input type="radio" name="genre"> Google
+        		<input type="radio" name="genre"> Otro
+        	</p>
+          <p>
+        		<label for="comment">Comentarios:</label>
+        		<br>
+        		<textarea name="comment" id="" cols="30" rows="3" required></textarea>
+        	</p>
+          <p>
+        		<label for="accept">Acepto terminos y condiciones: </label>
+        		<input type="checkbox" name="accept" required>
+        	</p>
+          <p>
+        		<input type="submit" value="Continuar">
+        	</p>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <hr>
+      <p>"Derechos Reservados"</p>
+    </footer>
   </body>
 </html>
